@@ -98,12 +98,12 @@ We can also perform a bulk export.  Both Snowflake and Dask (and really any dist
 ```python
 import dask.dataframe as dd
 import snowflake
-query = ""
+query = "
     COPY INTO 's3://my_storage_location'
     from <Table name>
     file_format = (type = parquet)
     credentials = (aws_key_id='xxxx' aws_secret_key='xxxxx' aws_token='xxxxxx');
-""
+"
 con = snowflake.connector.connect(user='XXXX', passwoard='XXXX', account='XXXX',)
 con.curson().execute(query)
 df = dd.read_parquet('s3://my_storage_location', ...)
@@ -142,9 +142,9 @@ import dask_snowflake
 import snowflake
 with snowflake.connector.connect(...) as conn:
    ddf = dask_snowflake.from_snowflake(
-      query=""
+      query="
       SELECT * FROM TableA JOIN TableB ON ...
-      "",
+      ",
       conn=conn,
    )
 ```
