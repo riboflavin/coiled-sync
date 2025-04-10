@@ -28,7 +28,7 @@ You can also add the three required dependencies to a YAML file if you're using 
 
 Restart your Jupyter Lab session, and you'll now see this formatting button:
 
-<img src="https://cdn.prod.website-files.com/63192998e5cab906c1b55f6e/633f7b5a3a4f10fe585db590_image.png" alt="" loading="lazy">
+<img src="https://cdn.prod.website-files.com/63192998e5cab906c1b55f6e/633f7b5a3a4f10fe585db590_image.png" alt=" loading="lazy">
 
 Click the button to format all the cells in your notebook with Black's code formatting rules.
 
