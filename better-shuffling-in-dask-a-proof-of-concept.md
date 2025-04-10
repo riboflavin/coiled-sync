@@ -1,6 +1,6 @@
 ---
-Better Shuffling in Dask: a Proof-of-Concept
-This post outlines the Coiled team's recent experimentation with a new approach to DataFrame shuffling in Dask.
+title: Better Shuffling in Dask: a Proof-of-Concept
+description: This post outlines the Coiled team's recent experimentation with a new approach to DataFrame shuffling in Dask.
 blogpost: true
 date: 
 author: 
