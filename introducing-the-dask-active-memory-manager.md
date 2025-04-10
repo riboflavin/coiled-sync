@@ -100,7 +100,7 @@ b = (A @ A.T).sum()
 
 A is a square matrix worth 12 GiB in total, split across 122 MiB chunks:
 
-<img src="https://cdn.prod.website-files.com/63192998e5cab906c1b55f6e/633f7b5e3269c1bf809fe758_image-700x285.png" alt="">
+<img src="https://cdn.prod.website-files.com/63192998e5cab906c1b55f6e/633f7b5e3269c1bf809fe758_image-700x285.png" alt=">
 
 If you run b.compute() on either the local threaded scheduler or on a single distributed threaded worker, the peak memory usage will be roughly 19 GiB; this is because no copies of the data need to be moved across workers. If you run the same problem on a cluster with multiple workers, however, you will necessarily incur data duplication. While the individual workers can mount a lot less than in the local use case, you should expect the cluster-wide occupation (the sum of the occupation on all the workers) to be substantially higher.
 
@@ -153,7 +153,7 @@ Finally, let's plot the data to see the difference:
 ms.plot(align=True, grid=True)
 ```
 
-<img src="https://cdn.prod.website-files.com/63192998e5cab906c1b55f6e/633f7b5e3269c133bc9fe757_image-1-700x556.png" alt="">
+<img src="https://cdn.prod.website-files.com/63192998e5cab906c1b55f6e/633f7b5e3269c133bc9fe757_image-1-700x556.png" alt=">
 
 ```python
 ms.to_pandas().max(axis=0) / 2**30
@@ -185,5 +185,5 @@ You'll also be able to ask for a key to be replicated on all workers, including 
 If you'd like to scale your Dask work to the cloud, check out Coiled — Coiled provides quick and on-demand Dask clusters along with tools to manage environments, teams, and costs. Click below to learn more!
 
 <span class="hs-cta-wrapper" id="hs-cta-wrapper-03d656c6-4957-4620-9331-31dd2182c1ec">
-  <span class="hs-cta-node hs-cta-03d656c6-4957-4620-9331-31dd2182c1ec" id=""hs-cta-03d656c6-4957-4620-9331-31dd2182c1ec"" data-hs-drop="true" style="visibility: visible;"><a id="cta_button_9245528_8e4f34db-efc2-457d-b57b-19c8363d59d5" class="cta_button text-center" href="https://content.coiled.io/cs/c/?cta_guid=8e4f34db-efc2-457d-b57b-19c8363d59d5&amp;signature=AAH58kGjtBypQM47qRpYL0Hed5wAa4Rdhw&amp;portal_id=9245528&amp;placement_guid=03d656c6-4957-4620-9331-31dd2182c1ec&amp;click=5dbe5a25-ae4f-4c17-a781-e2190bebd36c&amp;redirect_url=APefjpEnib68t4q_o9UQD4nrcEog4DQZ-BIRT3N3aOYE_fwToOa5m7dUSTXKfCuI4oSkSJXPkr58VOfj011LZ4gwSu9ZCeaIDfD4RDBaqQcesPHThPpHocpNgnR1LH8VRcohFooWtQkv&amp;hsutk=&amp;canon=https%3A%2F%2Fwww.coiled.io%2Fblog%2Fintroducing-the-dask-active-memory-manager&amp;ts=1744256063601" style="" cta_dest_link="https://www.coiled.io/product-overview" title="Learn More About Coiled"><div style="text-align: center;"><span style="font-size: 16px; font-family: Helvetica, Arial, sans-serif;">Learn More About Coiled</span></div></a></span>
+  <span class="hs-cta-node hs-cta-03d656c6-4957-4620-9331-31dd2182c1ec" id="hs-cta-03d656c6-4957-4620-9331-31dd2182c1ec" data-hs-drop="true" style="visibility: visible;"><a id="cta_button_9245528_8e4f34db-efc2-457d-b57b-19c8363d59d5" class="cta_button text-center" href="https://content.coiled.io/cs/c/?cta_guid=8e4f34db-efc2-457d-b57b-19c8363d59d5&amp;signature=AAH58kGjtBypQM47qRpYL0Hed5wAa4Rdhw&amp;portal_id=9245528&amp;placement_guid=03d656c6-4957-4620-9331-31dd2182c1ec&amp;click=5dbe5a25-ae4f-4c17-a781-e2190bebd36c&amp;redirect_url=APefjpEnib68t4q_o9UQD4nrcEog4DQZ-BIRT3N3aOYE_fwToOa5m7dUSTXKfCuI4oSkSJXPkr58VOfj011LZ4gwSu9ZCeaIDfD4RDBaqQcesPHThPpHocpNgnR1LH8VRcohFooWtQkv&amp;hsutk=&amp;canon=https%3A%2F%2Fwww.coiled.io%2Fblog%2Fintroducing-the-dask-active-memory-manager&amp;ts=1744256063601" style=" cta_dest_link="https://www.coiled.io/product-overview" title="Learn More About Coiled"><div style="text-align: center;"><span style="font-size: 16px; font-family: Helvetica, Arial, sans-serif;">Learn More About Coiled</span></div></a></span>
 </span>
