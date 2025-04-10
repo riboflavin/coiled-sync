@@ -16,7 +16,7 @@ The PyData stack for scientific computing in Python is an interoperable collecti
 
 In 2017, Jake VanderPlas [gave a keynote at PyCon](https://www.youtube.com/watch?v=ZyjCqQEUa8o) called "The Unreasonable Effectiveness of Python in Science", in which he presented a schematic of the scientific Python stack, also commonly referred to as the PyData stack. This is a broad collection of Python packages used for scientific computing and data science, in both industry and basic research:
 
-<img src="https://cdn.prod.website-files.com/63192998e5cab906c1b55f6e/66f7382de0db153ab2b8825e_66f737dabf6a30538773616b_Untitled-2024-02-21-1221.png" loading="lazy" alt="">
+<img src="https://cdn.prod.website-files.com/63192998e5cab906c1b55f6e/66f7382de0db153ab2b8825e_66f737dabf6a30538773616b_Untitled-2024-02-21-1221.png" loading="lazy" alt=">
 
 At the bottom of the stack, you have the Python standard library. As you move out, the next layer extends Python in ways that are useful to scientists and foundational for data science in Python, such as
 
@@ -36,7 +36,7 @@ If you're asking "Why is Dask foundational in the PyData stack?", you're asking 
 - if you're writing Dask code to scale your NumPy code, what you write will mimic the NumPy API, providing a smooth transition;
 - Similarly, if you're writing Dask code to scale your pandas code, what you write will mimic the pandas API.
 
-<img src="https://cdn.prod.website-files.com/63192998e5cab906c1b55f6e/66f73648cea19a16e37b44db_dask-array.svg" loading="lazy" alt="">
+<img src="https://cdn.prod.website-files.com/63192998e5cab906c1b55f6e/66f73648cea19a16e37b44db_dask-array.svg" loading="lazy" alt=">
 
 Dask arrays scale Numpy workflows, enabling multi-dimensional data analysis in earth science, satellite imagery, genomics, biomedical applications, and machine learning algorithms (from the Dask documentation).
 
@@ -81,7 +81,7 @@ These are a mere handful of examples and there are many more. The cultural and t
 
 The PyData stack is more than a collection of disparate packages created and maintained by different people. It is, rather, a collection of interoperable tools and packages for data science developed by a community (a cool data science project would be a network analysis of PyData stack contributors and packages, using publicly available github data). And the way to scale your data science while staying in this ecosystem is by using Dask.
 
-<img src="https://cdn.prod.website-files.com/63192998e5cab906c1b55f6e/633f7b5a64f4f9ad51f53404_dask-dataframe.svg" loading="lazy" alt="">
+<img src="https://cdn.prod.website-files.com/63192998e5cab906c1b55f6e/633f7b5a64f4f9ad51f53404_dask-dataframe.svg" loading="lazy" alt=">
 
 Dask DataFrames scale Pandas workflows, enabling applications in time series, business intelligence, and general data munging on big data (from the Dask documentation).
 
