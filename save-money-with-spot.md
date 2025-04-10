@@ -23,7 +23,7 @@ We optimized this process while making Coiled, a cloud SaaS product around deplo
 
 Both AWS and Google Cloud let you buy idle compute resources at a significant discount. For example, here are the costs for a 2vCPU 8GiB machine on each cloud:
 
-<img src="https://cdn.prod.website-files.com/63192998e5cab906c1b55f6e/63b73b6da9392c4a847b8558_Spot%20vs%20OnDeman%20Chart.png" loading="lazy" alt="">
+<img src="https://cdn.prod.website-files.com/63192998e5cab906c1b55f6e/63b73b6da9392c4a847b8558_Spot%20vs%20OnDeman%20Chart.png" loading="lazy" alt=">
 
 Spot instances are about a quarter the cost… so what's the catch?
 
@@ -59,7 +59,7 @@ Before we worry about spot/preemptible instances going away, first we need to fi
 
 Clouds (AWS, GCP, Azure) have lots of data centers. These data centers are grouped into "**zones**", and one or more zones make up a "**region**". Usually you care about what **region** you use, because the sorts of workloads that people run on Coiled usually involve processing lots of data, and moving data between **regions** costs money.
 
-<img src="https://cdn.prod.website-files.com/63192998e5cab906c1b55f6e/63b744967f3626915157c631_Spot%20Savings%20-%20Cloud%20Diagram.png" loading="lazy" alt="">
+<img src="https://cdn.prod.website-files.com/63192998e5cab906c1b55f6e/63b744967f3626915157c631_Spot%20Savings%20-%20Cloud%20Diagram.png" loading="lazy" alt=">
 
 You should also care that all of your instances are in a **single zone**, because moving data between zones also costs money, but usually you don't need to care which **specific zone** you use. Data is typically stored in a region and not a specific zone within that region.
 
@@ -71,7 +71,7 @@ We applied this approach to internal workloads, large scale Dask benchmarks run 
 
 As availability shifted, you can see that these workers came from different AWS availability zones:
 
-<img src="https://cdn.prod.website-files.com/63192998e5cab906c1b55f6e/63b607ac0681a7842c28c666_image3.png" loading="lazy" alt="">
+<img src="https://cdn.prod.website-files.com/63192998e5cab906c1b55f6e/63b607ac0681a7842c28c666_image3.png" loading="lazy" alt=">
 
 Prior to this feature, we didn't even use Spot. Consistency in these benchmarks was important enough to our internal teams, and the experience was poor enough that we just paid the higher bill. *Since implementing this feature (and those below) we've heard no complaints from engineering, and nothing but praise from finance*.
 
