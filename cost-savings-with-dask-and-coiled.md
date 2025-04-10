@@ -66,7 +66,7 @@ Transparency takes a few forms. You can view the cost of currently running clust
 
 You can also view aggregated cost information by user and by time to help identify opportunities for future improvement and cost assignment. See our [documentation on managing costs](https://docs.coiled.io/user_guide/costs/index.html) for more details.
 
-<img src="https://cdn.prod.website-files.com/63192998e5cab906c1b55f6e/64d1345b6369f5e3f48c4829_Screenshot%202023-08-07%20at%2011.13.14%20AM.png" loading="lazy" alt="">
+<img src="https://cdn.prod.website-files.com/63192998e5cab906c1b55f6e/64d1345b6369f5e3f48c4829_Screenshot%202023-08-07%20at%2011.13.14%20AM.png" loading="lazy" alt=">
 
 Account administrators can see a detailed breakdown of Coiled usage by a number of dimensions like user, GitHub reference, or tag.
 
@@ -87,7 +87,7 @@ When you set alerts, AWS or GCP will send you an email notification when you hav
 
 #### Coiled usage limits
 
-<img src="https://cdn.prod.website-files.com/63192998e5cab906c1b55f6e/6364208b390aec411e6fe850_uAzCwgM9ovjlPQFuj2QEd_BbrT5fZXBOJtojFMiJAy5hinbLuaC7OyoZj8o-0Quln8R8I3MZ2xVr9yRr8uo7Y9CvMyM6RY2RYnFYTy9IIITJNu46tu8cpOasYo6eDf2Ru6pu-QnmU2Nul8HW-3BPUmIw35XVObRAIAMrnkFM4hI_h8RKEjulw5yxXJvmxQ.png" alt="" loading="lazy">
+<img src="https://cdn.prod.website-files.com/63192998e5cab906c1b55f6e/6364208b390aec411e6fe850_uAzCwgM9ovjlPQFuj2QEd_BbrT5fZXBOJtojFMiJAy5hinbLuaC7OyoZj8o-0Quln8R8I3MZ2xVr9yRr8uo7Y9CvMyM6RY2RYnFYTy9IIITJNu46tu8cpOasYo6eDf2Ru6pu-QnmU2Nul8HW-3BPUmIw35XVObRAIAMrnkFM4hI_h8RKEjulw5yxXJvmxQ.png" alt=" loading="lazy">
 
 Additionally Coiled can help you bound how much you or your teammates spend with us. Coiled offers the following bounds:
 
@@ -123,5 +123,5 @@ The median Coiled user spends low thousands of dollars per month. While real mon
 Coiled is free to try, up to about $500/month of managed cloud usage. Many of our customers pay only tens of thousands of dollars per year, far less than they would pay trying to build such a system themselves. Coiled provides a cost-constrained experience that also delights data science and data engineering users, making them more productive with their time.
 
 <span class="hs-cta-wrapper" id="hs-cta-wrapper-03d656c6-4957-4620-9331-31dd2182c1ec">
-  <span class="hs-cta-node hs-cta-03d656c6-4957-4620-9331-31dd2182c1ec" id=""hs-cta-03d656c6-4957-4620-9331-31dd2182c1ec"" data-hs-drop="true" style="visibility: visible;"><a id="cta_button_9245528_8e4f34db-efc2-457d-b57b-19c8363d59d5" class="cta_button text-center" href="https://content.coiled.io/cs/c/?cta_guid=8e4f34db-efc2-457d-b57b-19c8363d59d5&amp;signature=AAH58kF8cJ14_NFCXUtefIroMFK9yuGCPQ&amp;portal_id=9245528&amp;placement_guid=03d656c6-4957-4620-9331-31dd2182c1ec&amp;click=156d741b-9935-442a-902a-5968642b26c1&amp;redirect_url=APefjpE4H0H8bUCFxLILVhfu5rIOpwqhsBtSDEsoYKTqmo4od3DcgNxLTo-FWvHNEC3tgzLc57hnaF-qP93ID5-gS_OXcNUYtB1LOyt4htuVi4MCNNDRnU2BYGgE9qceiVPHNkYfCoRW&amp;hsutk=&amp;canon=https%3A%2F%2Fwww.coiled.io%2Fblog%2Fcost-savings-with-dask-and-coiled&amp;ts=1744255827272" style="" cta_dest_link="https://www.coiled.io/product-overview" title="Learn More About Coiled"><div style="text-align: center;"><span style="font-size: 16px; font-family: Helvetica, Arial, sans-serif;">Learn More About Coiled</span></div></a></span>
+  <span class="hs-cta-node hs-cta-03d656c6-4957-4620-9331-31dd2182c1ec" id="hs-cta-03d656c6-4957-4620-9331-31dd2182c1ec" data-hs-drop="true" style="visibility: visible;"><a id="cta_button_9245528_8e4f34db-efc2-457d-b57b-19c8363d59d5" class="cta_button text-center" href="https://content.coiled.io/cs/c/?cta_guid=8e4f34db-efc2-457d-b57b-19c8363d59d5&amp;signature=AAH58kF8cJ14_NFCXUtefIroMFK9yuGCPQ&amp;portal_id=9245528&amp;placement_guid=03d656c6-4957-4620-9331-31dd2182c1ec&amp;click=156d741b-9935-442a-902a-5968642b26c1&amp;redirect_url=APefjpE4H0H8bUCFxLILVhfu5rIOpwqhsBtSDEsoYKTqmo4od3DcgNxLTo-FWvHNEC3tgzLc57hnaF-qP93ID5-gS_OXcNUYtB1LOyt4htuVi4MCNNDRnU2BYGgE9qceiVPHNkYfCoRW&amp;hsutk=&amp;canon=https%3A%2F%2Fwww.coiled.io%2Fblog%2Fcost-savings-with-dask-and-coiled&amp;ts=1744255827272" style=" cta_dest_link="https://www.coiled.io/product-overview" title="Learn More About Coiled"><div style="text-align: center;"><span style="font-size: 16px; font-family: Helvetica, Arial, sans-serif;">Learn More About Coiled</span></div></a></span>
 </span>
