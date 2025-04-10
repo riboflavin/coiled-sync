@@ -162,7 +162,7 @@ All set! Once pushed to the repository, the Github Action will run this script a
 
 ‍
 
-<img src="https://cdn.prod.website-files.com/63192998e5cab906c1b55f6e/6372d950ee01afc01826807e_Coiled%20blog%20-%20github%20actions%201.png" loading="lazy" alt="">
+<img src="https://cdn.prod.website-files.com/63192998e5cab906c1b55f6e/6372d950ee01afc01826807e_Coiled%20blog%20-%20github%20actions%201.png" loading="lazy" alt=">
 
 ‍
 
